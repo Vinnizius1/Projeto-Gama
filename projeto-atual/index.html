@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio #1: Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <form id="Form1" method="POST" data-netlify="true">
+        <h2>Cadastre-se para aproveitar!</h2>
+        <input type="text" placeholder="Email" required>
+        <input type="password" placeholder="Senha" required>
+        <input type="password" placeholder="Confirme a senha" required>
+
+        <div class="btn-box">
+           <button type="button" id="Next">Próximo</button> 
+        </div>
+    </form>
+
+    <form id="Form2" method="POST">
+        <h2>Informações pessoais</h2>
+        <input type="text" placeholder="Primeiro nome" required>
+        <input type="text" placeholder="Sobrenome" required>
+        <input type="tel" placeholder="Celular" required>
+
+        <div class="btn-box">
+           <button type="button" id="Back">Anterior</button> 
+           <button type="submit" id="Submit">Enviar</button> 
+        </div>
+    </form>
+
+    <div class="step-row">
+        <div id="progress"></div>
+        <div class="step-col"><small>Passo 1</small></div>
+        <div class="step-col"><small>Passo 2</small></div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

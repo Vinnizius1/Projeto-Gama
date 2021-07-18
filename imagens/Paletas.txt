@@ -1,0 +1,10 @@
+#F0FFFF, #0096FF
+
+#FAA0A0, #FF3131
+
+
+  https://htmlcolorcodes.com/colors/
+
+
+
+ https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_ltr
